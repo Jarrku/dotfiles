@@ -8,6 +8,7 @@ alias '..'='cd ..'
 
 alias clone='cd ~/repositories && git clone $1'
 
+alias dotfiles='cd ~/bin/dotfiles'
 # Projects
 alias repos='cd ~/repositories'
 alias dashboard='cd ~/repositories/platform-three-dashboard'
