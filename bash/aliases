@@ -14,14 +14,14 @@ alias repos='cd ~/repositories'
 alias dashboard='cd ~/repositories/platform-three-dashboard'
 alias editor='cd ~/repositories/html5-moov-tools'
 alias moovly-ui='cd ~/repositories/moovly-ui-components'
-alias codemods='cd $REACT_CODEMODS'
+alias codemods='cd ~/repositories/react-codemod'
 alias oauth='cd ~/repositories/oauth-frontend'
 
 # React codemods
-alias codemod:class='jscodeshift -t $REACT_CODEMODS/transforms/class.js --mixin-module-name=react-addons-pure-render-mixin --pure-component=true --remove-runtime-proptypes=false'
-alias codemod:class:flow='jscodeshift -t $REACT_CODEMODS/transforms/class.js --mixin-module-name=react-addons-pure-render-mixin --flow=true --pure-component=true --remove-runtime-proptypes=false'
-alias codemod:unsafe='jscodeshift -t $REACT_CODEMODS/transforms/rename-unsafe-lifecycles.js'
-alias codemod:proptypes='jscodeshift -t $REACT_CODEMODS/transforms/React-PropTypes-to-prop-types.js'
+alias codemod:class='jscodeshift -t ~/repositories/react-codemod/transforms/class.js --mixin-module-name=react-addons-pure-render-mixin --pure-component=true --remove-runtime-proptypes=false'
+alias codemod:class:flow='jscodeshift -t ~/repositories/react-codemod/transforms/class.js --mixin-module-name=react-addons-pure-render-mixin --flow=true --pure-component=true --remove-runtime-proptypes=false'
+alias codemod:unsafe='jscodeshift -t ~/repositories/react-codemod/transforms/rename-unsafe-lifecycles.js'
+alias codemod:proptypes='jscodeshift -t ~/repositories/react-codemod/transforms/React-PropTypes-to-prop-types.js'
 
 # General
 alias l='ls -lah'
