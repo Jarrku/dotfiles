@@ -18,6 +18,7 @@ alias editor:css='cd ~/repositories/html5-moov-tools/prototype && nvm use editor
 alias moovly-ui='cd ~/repositories/moovly-ui-components'
 alias codemods='cd ~/repositories/react-codemod'
 alias oauth='cd ~/repositories/oauth-frontend'
+alias chingu='cd ~/repositories/Bears-Team-18'
 
 # React codemods
 alias codemod:class='jscodeshift -t ~/repositories/react-codemod/transforms/class.js --mixin-module-name=react-addons-pure-render-mixin --pure-component=true --remove-runtime-proptypes=false'
