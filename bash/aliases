@@ -19,6 +19,7 @@ alias moovly-ui='cd ~/repositories/moovly-ui-components'
 alias codemods='cd ~/repositories/react-codemod'
 alias oauth='cd ~/repositories/oauth-frontend'
 alias chingu='cd ~/repositories/Bears-Team-18'
+alias player='cd ~/repositories/standalone-video-player'
 
 # React codemods
 alias codemod:class='jscodeshift -t ~/repositories/react-codemod/transforms/class.js --mixin-module-name=react-addons-pure-render-mixin --pure-component=true --remove-runtime-proptypes=false'
