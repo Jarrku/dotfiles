@@ -14,11 +14,10 @@ alias repos='cd ~/repositories'
 alias dashboard='cd ~/repositories/platform-three-dashboard'
 alias editor='cd ~/repositories/html5-moov-tools && nvm use editor'
 alias editor:dev='editor && yarn dev-editor'
-alias editor:css='cd ~/repositories/html5-moov-tools/prototype && nvm use editor && gulp build'
 alias moovly-ui='cd ~/repositories/moovly-ui-components'
 alias codemods='cd ~/repositories/react-codemod'
 alias oauth='cd ~/repositories/oauth-frontend'
-alias chingu='cd ~/repositories/Bears-Team-18'
+alias chingu='cd ~/repositories/chingu-slack-clone'
 alias player='cd ~/repositories/standalone-video-player'
 
 # React codemods
