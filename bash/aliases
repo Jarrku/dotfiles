@@ -18,6 +18,7 @@ alias moovly-ui='cd ~/repositories/moovly-ui-components'
 alias codemods='cd ~/repositories/react-codemod'
 alias oauth='cd ~/repositories/oauth-frontend'
 alias chingu='cd ~/repositories/chingu-slack-clone'
+alias kkf='cd ~/repositories/realtime-order-app'
 alias player='cd ~/repositories/standalone-video-player'
 
 # React codemods
