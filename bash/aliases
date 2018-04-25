@@ -5,21 +5,26 @@ alias ee="$EDITOR ~/bin/dotfiles/bash/env && reload"
 alias ef="$EDITOR ~/bin/dotfiles/bash/functions && reload"
 
 alias '..'='cd ..'
-
-alias clone='cd ~/repositories && git clone $1'
-
 alias dotfiles='cd ~/bin/dotfiles'
+
 # Projects
 alias repos='cd ~/repositories'
-alias dashboard='cd ~/repositories/platform-three-dashboard'
-alias editor='cd ~/repositories/html5-moov-tools && nvm use editor'
-alias editor:dev='editor && yarn dev-editor'
-alias moovly-ui='cd ~/repositories/moovly-ui-components'
 alias codemods='cd ~/repositories/react-codemod'
-alias oauth='cd ~/repositories/oauth-frontend'
 alias chingu='cd ~/repositories/chingu-slack-clone'
 alias kkf='cd ~/repositories/realtime-order-app'
-alias player='cd ~/repositories/standalone-video-player'
+
+alias clone='repos && git clone $1'
+
+# Moovly
+alias moovly='cd ~/repositories/Moovly'
+alias dashboard='cd ~/repositories/Moovly/platform-three-dashboard'
+alias editor='cd ~/repositories/Moovly/html5-moov-tools && nvm use editor'
+alias editor:dev='editor && yarn dev-editor'
+alias moovly-ui='cd ~/repositories/Moovly/moovly-ui-components'
+alias player='cd ~/repositories/Moovly/standalone-video-player'
+alias oauth='cd ~/repositories/Moovly/oauth-frontend'
+
+alias clone:moovly='moovly && git clone $1'
 
 # React codemods
 alias codemod:class='jscodeshift -t ~/repositories/react-codemod/transforms/class.js --mixin-module-name=react-addons-pure-render-mixin --pure-component=true --remove-runtime-proptypes=false'
