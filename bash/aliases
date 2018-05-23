@@ -36,6 +36,7 @@ alias codemod:proptypes='jscodeshift -t ~/repositories/react-codemod/transforms/
 alias l='ls -lah'
 alias c='clear'
 alias o='open .'
+alias t='touch $1'
 
 # GIT
 alias gb='git branch'
