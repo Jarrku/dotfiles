@@ -18,7 +18,7 @@ alias clone='repos && git clone $1'
 # Moovly
 alias moovly='cd ~/repositories/Moovly'
 alias dashboard='cd ~/repositories/Moovly/platform-three-dashboard'
-alias editor='cd ~/repositories/Moovly/html5-moov-tools && nvm use'
+alias editor='cd ~/repositories/Moovly/html5-moov-tools'
 alias editor:dev='editor && yarn dev-editor'
 alias moovly-ui='cd ~/repositories/Moovly/moovly-ui-components'
 alias player='cd ~/repositories/Moovly/standalone-video-player'
