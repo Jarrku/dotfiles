@@ -39,9 +39,9 @@ alias o='open .'
 alias t='touch $1'
 
 # GIT
-alias pr:bug = hub pull-request --labels="bug" --base="develop" --edit
-alias pr:chore = hub pull-request --labels="chore" --base="develop" --edit
-alias pr:feature = hub pull-request --labels="feature" --base="develop" --edit
+alias pr:bug='hub pull-request --labels="bug" --base="develop" --edit'
+alias pr:chore='hub pull-request --labels="chore" --base="develop" --edit'
+alias pr:feature='hub pull-request --labels="feature" --base="develop" --edit'
 
 alias gb='git branch'
 alias gl='git log'
