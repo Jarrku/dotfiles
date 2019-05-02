@@ -16,6 +16,8 @@ cp root-files/.bashrc  ~/.bashrc
 # Create/validate existence for a file called .bash_profile:
 cp root-files/.bash_profile  ~/.bash_profile
 
+# Add a GitHub Auth token to the newly created ~/.bash_profile file
+
 # Run .bash_profile:
 . ~/.bash_profile
 ```
