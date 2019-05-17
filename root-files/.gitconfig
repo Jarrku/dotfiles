@@ -1,0 +1,17 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Simon VDB
+	email = simonvdbroeck@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	editor = code --wait --new-window
+	commentChar = %
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --new-window --diff $LOCAL $REMOTE
