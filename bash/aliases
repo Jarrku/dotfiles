@@ -18,7 +18,9 @@ alias clone='repos && git clone $1'
 # Foreach
 alias foreach='cd ~/repositories/foreach'
 alias mme='cd ~/repositories/foreach/mmev2'
+alias mme:fe='cd ~/repositories/foreach/mmev2/mme/src/main/frontend'
 alias code:mme='mme && code .'
+alias gutenberg='cd ~/repositories/jarrku/gutenberg'
 
 alias clone:foreach='foreach && git clone $1'
 
