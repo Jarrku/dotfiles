@@ -71,7 +71,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git nvm)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -116,6 +116,8 @@ export RUBY_HEAP_SLOTS_INCREMENT=300000
 export RUBY_HEAP_SLOTS_GROWTH_FACTOR=1
 export RUBY_GC_MALLOC_LIMIT=79000000
 
+alias code=code-insiders
+
 alias git=hub
 alias reload='. ~/.zshrc'
 alias dotfiles='cd ~/bin/dotfiles && code .'
@@ -132,6 +134,10 @@ alias clone='repos && git clone $1'
 alias foreach='cd ~/repositories/foreach'
 alias mme='cd ~/repositories/foreach/mmev2'
 alias mme:fe='cd ~/repositories/foreach/mmev2/mme/src/main/frontend'
+alias cama='cd ~/Repositories/foreach/camashop'
+alias cama:fe='cd ~/Repositories/foreach/camashop/camashop/src/main/design'
+alias investor='cd ~/Repositories/foreach/investor'
+alias investor:fe='cd ~/Repositories/foreach/investor/investor-application/src/main/frontend'
 alias code:mme='mme && code .'
 alias gutenberg='cd ~/repositories/jarrku/gutenberg'
 
@@ -178,3 +184,6 @@ alias grc='git rebase --continue'
 alias gri='git rebase --interactive'
 
 alias mstart='sudo mongod --dbpath /data/db'
+
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
